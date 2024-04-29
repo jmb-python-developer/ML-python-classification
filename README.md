@@ -54,4 +54,9 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+This project favours Conda over pip, so Ttoo set up the Conda environment:
+- Install [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- Run `conda env create -f environment.yml` to create the environment
+- Activate the environment with `conda activate ml_python_classification`
+
+--------

@@ -1,4 +1,4 @@
-name: ml_python_classification
+name: classification_examples
 channels:
   - defaults
 dependencies:
@@ -26,4 +26,3 @@ dependencies:
   - wheel=0.41.2=py39hecd8cb5_0
   - xz=5.4.6=h6c40b1e_0
   - zlib=1.2.13=h4dc903c_0
-

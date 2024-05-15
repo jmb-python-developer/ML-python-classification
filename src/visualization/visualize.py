@@ -21,7 +21,7 @@ def plot_data(X, y, ax, pos_label="y=1", neg_label="y=0", s=80, loc='best' ):
 
     # Plots de samples - Scatter plots
     ax.scatter(X[pos, 0], X[pos, 1], marker='x', s=s, c = 'red', label=pos_label)
-    ax.scatter(X[neg, 0], X[neg, 1], marker='o', s=s, label=neg_label, facecolors='none', edgecolors=dlc.dlblue, lw=3)
+    ax.scatter(X[neg, 0], X[neg, 1], marker='o', s=s, label=neg_label, facecolors='none', edgecolors=dlc['dlblue'], lw=3)
     ax.legend(loc=loc)
 
     ax.figure.canvas.toolbar_visible = False

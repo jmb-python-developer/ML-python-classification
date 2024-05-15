@@ -62,3 +62,18 @@ def gradient_descent(X, y, w_in, b_in, alpha, num_iters, sigmoid):
         w = w - alpha * dj_dw
         b = b - alpha * dj_dw
     return w, b
+
+def sigmoid(z):
+  """
+  Compute the Sigmoid for z function.
+
+  Parameters:
+    z: array
+      Scalar or Numpy array of any size
+  Returns:
+    g: array
+      sigmoid(z)
+  """
+  z = np.clip(z, -500, 500)
+  g = 1.0 / (1.0 + np.exp(-z))
+  return g
